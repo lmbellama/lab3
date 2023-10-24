@@ -15,4 +15,18 @@ public class ArrayTests {
     int[] input1 = { };
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
+
+  @Test
+  public void testReversedInPlaceMine(){
+    int[] before = {1,2,3};
+    int[] after = {3,2,1};
+    assertArrayEquals(after, ArrayExamples.reversed(before));
+  }
+
+  @Test
+  public void testReversedMine(){
+    int[] before = {1,2,3};
+    int[] after = {3,2,1};
+    assertArrayEquals(after, ArrayExamples.reversed(before));
+  }
 }

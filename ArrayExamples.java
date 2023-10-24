@@ -35,6 +35,8 @@ public class ArrayExamples {
     return sum / (arr.length - 1);
   }
 
+  ///change
+
 
 }
 
